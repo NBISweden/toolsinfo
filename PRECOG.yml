@@ -1,0 +1,24 @@
+---
+releasedate: 2016-01-27
+affiliation: gu.se
+biotools_id: PRECOG
+biotools_version: 1.0.0.16
+contact_email: luciano.fernandez@marine.gu.se
+contact_url: null
+description: PRECOG is a tool developed to automate visualization, analysis and exploration
+  of complex and highly resolved microbial growth data, as well as standardized extraction
+  of the fitness components it contains.  We hope that this tool will promote simplicity,
+  transparency and standardization in microbial growth phenomics, and provide a portal
+  with the standalone software and online tools so that other microbiology labs can
+  easily upload, assess and visualize their growth data.
+devstatus: Maintained
+homepage: http://precog.lundberg.gu.se/
+name: PRECOG
+operatingSystem: [Windows]
+pi: Anders Blomberg
+primary_doi: [10.1186/s12859-016-1134-2]
+primary_pub: ['Fernandez-Ricaud et al., 2016']
+released: true
+toolType: [Desktop application, Command-line tool, Web application]
+uses_doi: []
+version: 1.0.0.16
