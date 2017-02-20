@@ -1,0 +1,21 @@
+---
+releasedate: 2015-11-25
+affiliation: nrm.se
+biotools_id: MrBayes
+biotools_version: 3.2.6
+contact_email: null
+contact_url: http://nbisweden.github.io/MrBayes/
+description: MrBayes is a program for Bayesian inference and model choice across a
+  wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte
+  Carlo (MCMC) methods to estimate the posterior distribution of model parameters.
+devstatus: Maintained
+homepage: http://nbisweden.github.io/MrBayes/
+name: MrBayes
+operatingSystem: [Linux, Windows, Mac]
+pi: Fredrik Ronquist
+primary_doi: [10.1093/bioinformatics/17.8.754]
+primary_pub: ['Huelsenbeck & Ronquist, 2001']
+released: true
+toolType: [Command-line tool]
+uses_doi: []
+version: 3.2.6
