@@ -1,0 +1,19 @@
+---
+releasedate: 2005-02-03
+affiliation: immun.lth.se
+biotools_id: Proteios
+biotools_version: none
+contact_email: webmaster@ms-utils.org
+contact_url: http://ms-utils.org
+description: pipeline/LIMS for proteomics experiments and analysis
+devstatus: Maintained
+homepage: http://www.proteios.org
+name: Proteios
+operatingSystem: []
+pi: Fredrik Levander
+primary_doi: [10.1093/bioinformatics/bti291]
+primary_pub: ['Garden et al., 2005']
+released: true
+toolType: [Web application]
+uses_doi: []
+version: null
