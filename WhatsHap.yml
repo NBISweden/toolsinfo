@@ -1,0 +1,21 @@
+---
+releasedate: 2016-10-27
+affiliation: mpi-inf.mpg.de
+biotools_id: WhatsHap
+biotools_version: '0.13'
+contact_email: null
+contact_url: https://lists.cwi.nl/mailman/listinfo/whatshap
+description: WhatsHap is a software for phasing genomic variants using DNA sequencing
+  reads, also called haplotype assembly. It is especially suitable for long reads,
+  but works also well with short reads.
+devstatus: Active
+homepage: http://whatshap.readthedocs.io
+name: WhatsHap
+operatingSystem: [Linux, Mac]
+pi: Tobias Marschall
+primary_doi: [10.1089/cmb.2014.0157, 10.1101/037101]
+primary_pub: ['Patterson et al., 2015', 'Garg et al., 2016']
+released: true
+toolType: [Command-line tool]
+uses_doi: []
+version: '0.13'

@@ -1,0 +1,21 @@
+---
+releasedate: 2016-08-01
+affiliation: ki.se
+biotools_id: IgDiscover
+biotools_version: 0.6.0
+contact_email: igdiscover@googlegroups.com
+contact_url: http://igdiscover.se/
+description: IgDiscover analyzes antibody repertoires and discovers new V genes from
+  high-throughput sequencing reads. Heavy chains, kappa and lambda light chains are
+  supported (to discover VH, VK and VL genes).
+devstatus: Active
+homepage: http://igdiscover.se/
+name: IgDiscover
+operatingSystem: [Linux, Mac]
+pi: Gunilla Karlsson Hedestam
+primary_doi: [10.1038/ncomms13642]
+primary_pub: ['Corcoran et al., 2016']
+released: true
+toolType: [Command-line tool]
+uses_doi: []
+version: 0.6.0

@@ -1,0 +1,12 @@
+---
+name: ChIP-seq QC pipeline
+description: Pipeline for quality control of ChIP-seq data, implemented as a plug-in for the workflow manager ClusterFlow.
+ See pipelines/chipseq_qc.config in the ClusterFlow repository on GitHub.
+homepage: https://github.com/ewels/clusterflow
+operatingSystem: Linux
+toolType: Workflow
+affiliation: nbis.se
+pi: Jakub Westholm, NBIS
+contact_email: jakub.westholm@scilifelab.se
+released: true
+devstatus: Maintained

@@ -1,0 +1,12 @@
+---
+name: SweFreq
+description: Server hosting whole-genome variant frequencies for 1000 Swedish individuals generated within the SweGen project.
+homepage: https://swefreq.nbis.se
+operatingSystem: [Not applicable]
+toolType: [Web application]
+affiliation: scilifelab.se
+pi: Ulf Gyllensten
+primary_doi: [10.1101/081505]
+contact_email: swefreq@scilifelab.se
+released: true
+devstatus: Maintained
