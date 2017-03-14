@@ -5,7 +5,7 @@ biotools_id: Proteios
 biotools_version: none
 contact_email: webmaster@ms-utils.org
 contact_url: http://ms-utils.org
-description: pipeline/LIMS for proteomics experiments and analysis
+description: A multi-user platform for analysis and management of proteomics data.
 devstatus: Maintained
 homepage: http://www.proteios.org
 name: Proteios
