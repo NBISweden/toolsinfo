@@ -7,6 +7,7 @@ toolType: [Web application]
 affiliation: scilifelab.se
 pi: Ulf Gyllensten
 primary_doi: [10.1101/081505]
+primary_pub: ['Ameur et al., 2016']
 contact_email: swefreq@scilifelab.se
 released: true
 devstatus: Maintained

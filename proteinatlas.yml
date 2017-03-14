@@ -1,0 +1,23 @@
+---
+releasedate: 2005-08-29
+affiliation: kth.se
+biotools_id: proteinatlas
+biotools_version: '1'
+contact_email: contact@proteinatlas.org
+contact_url: null
+description: 'Database with millions of high-resolution images.
+
+  Expression and localization of proteins in a large variety of normal human tissues,
+  cancer cells and cell lines with the aid of immunohistochemistry (IHC) images and
+  immunofluorescence (IF) confocal microscopy images.'
+devstatus: Active
+homepage: http://www.proteinatlas.org/
+name: The Human Protein Atlas
+operatingSystem: []
+pi: "Mathias Uhl\xE9n"
+primary_doi: [10.1038/nbt1210-1248, 10.1126/science.1260419]
+primary_pub: ['Uhlen et al., 2010', 'Uhlen et al., 2015']
+released: true
+toolType: [Database portal]
+uses_doi: [10.1096/fj.14-250555, 10.1186/s12864-015-1686-y, 10.15252/msb.20167144]
+version: '16.1'
