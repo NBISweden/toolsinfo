@@ -6,7 +6,6 @@ homepage: https://github.com/ewels/clusterflow
 operatingSystem: Linux
 toolType: Workflow
 affiliation: nbis.se
-pi: Jakub Westholm, NBIS
 contact_email: jakub.westholm@scilifelab.se
 released: true
 devstatus: Maintained
