@@ -1,0 +1,11 @@
+---
+name: Metabolic Atlas
+description: The Metabolic Atlas is a web resource for yeast and human metabolism visualising, and analysing, hundreds of different manually curated genome-scale metabolic models (GEMs) for different conditions.
+toolType: [Database portal, Web application, Web API, Web service]
+affiliation: chalmers.se
+pi: Jens Nielsen
+contact_email: admin@metabolicatlas.org
+primary_doi: [10.1093/database/bav068]
+primary_pub: ['Pornputtapong et al., 2015']
+released: false
+devstatus: Active
