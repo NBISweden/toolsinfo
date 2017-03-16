@@ -21,4 +21,5 @@ primary_pub: ['Fernandez-Ricaud et al., 2016']
 released: true
 toolType: [Desktop application, Command-line tool, Web application]
 uses_doi: []
+uses_pub: []
 version: 1.0.0.16

@@ -18,4 +18,5 @@ primary_pub: ['Huelsenbeck & Ronquist, 2001']
 released: true
 toolType: [Command-line tool]
 uses_doi: []
+uses_pub: []
 version: 3.2.6

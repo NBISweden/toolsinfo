@@ -18,4 +18,5 @@ primary_pub: ['Corcoran et al., 2016']
 released: true
 toolType: [Command-line tool]
 uses_doi: []
+uses_pub: []
 version: 0.6.0
