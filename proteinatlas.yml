@@ -20,4 +20,5 @@ primary_pub: ['Uhlen et al., 2010', 'Uhlen et al., 2015']
 released: true
 toolType: [Database portal]
 uses_doi: [10.1096/fj.14-250555, 10.1186/s12864-015-1686-y, 10.15252/msb.20167144]
+uses_pub: ['Kampf et al., 2014', 'Lindskog et al., 2015', 'Edfors et al., 2016']
 version: '16.1'
