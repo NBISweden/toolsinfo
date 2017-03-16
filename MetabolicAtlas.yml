@@ -1,5 +1,5 @@
 ---
-name: Metabolic Atlas
+name: Metabolic Atlas v2
 description: The Metabolic Atlas is a web resource for yeast and human metabolism visualising, and analysing, hundreds of different manually curated genome-scale metabolic models (GEMs) for different conditions.
 toolType: [Database portal, Web application, Web API, Web service]
 affiliation: chalmers.se
