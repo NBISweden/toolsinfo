@@ -1,0 +1,10 @@
+---
+name: Structural variation workflow for WGS data
+description: A workflow for standardized calling and filtering of structural variants, designed for whole genome sequencing projects.
+homepage: https://github.com/NBISweden/wgs-structvar/wiki
+operatingSystem: Linux
+toolType: Workflow
+affiliation: nbis.se
+contact_email: bjorn.nystedt@scilifelab.se
+released: false
+devstatus: Active

@@ -1,0 +1,20 @@
+---
+releasedate: 2017-02-16
+affiliation: scilifelab.se
+biotools_id: CAW
+contact_email: maxime.garcia@scilifelab.se
+contact_url: null
+description: CAW (Cancer Analysis Workflow) is a complete open source pipeline to
+  detect somatic variants from WGS data.
+devstatus: Active
+homepage: http://opensource.scilifelab.se/projects/caw/
+name: CAW
+operatingSystem: [Linux]
+pi: null
+primary_doi: []
+primary_pub: []
+released: true
+toolType: [Command-line tool]
+uses_doi: []
+uses_pub: []
+version: '1.0'
