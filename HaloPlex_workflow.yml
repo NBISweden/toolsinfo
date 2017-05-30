@@ -1,0 +1,12 @@
+---
+name: HaloPlex variant calling pipeline
+description: A pipeline for calling variants from targeted DNA sequencing data obtained using the HaloPlex method.
+homepage: null
+operatingSystem: Linux
+toolType: Workflow
+affiliation: nbis.se
+contact_email: par.engstrom@scilifelab.se
+primary_doi: [10.1002/gcc.22363, 10.1016/j.ijcard.2016.11.066]
+primary_pub: ['Tuominen et al., 2016', 'Dalin et al., 2017']
+released: false
+devstatus: Active

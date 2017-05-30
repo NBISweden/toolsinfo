@@ -1,0 +1,10 @@
+---
+name: Single-cell RNA-seq analysis workflow
+description: A workflow for quality control and basic analysis of single-cell RNA-seq data.
+homepage: https://bitbucket.org/scilifelab-lts/lts-workflows-sm-scrnaseq/branch/develop
+operatingSystem: Linux
+toolType: Workflow
+affiliation: nbis.se
+contact_email: asa.bjorklund@scilifelab.se
+released: false
+devstatus: Active
