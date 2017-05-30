@@ -14,7 +14,7 @@ pi: null
 primary_doi: []
 primary_pub: []
 released: true
-toolType: [Command-line tool]
+toolType: [Command-line tool, Workflow]
 uses_doi: []
 uses_pub: []
 version: '1.0'
