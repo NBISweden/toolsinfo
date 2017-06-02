@@ -1,7 +1,7 @@
-# NBIS site tools
+# Tool descriptions for the NBIS website
 
 This repository contains descriptions of tools that are under
-development and maintenance by NBIS staff. The tool descriptions are
+development or maintenance by NBIS staff. The tool descriptions are
 presented on the NBIS website:
 http://www.nbis.se/infrastructure/tools/.
 
