@@ -3,7 +3,7 @@
 This repository contains descriptions of tools that are under
 development and maintenance by NBIS staff. The tool descriptions are
 presented on the NBIS website:
-http://www.nbis.se/infrastructure/tools/
+http://www.nbis.se/infrastructure/tools/.
 
 All mature, released tools that are maintained by NBIS should have a
 description in this repository. We also include descriptions for tools
@@ -24,16 +24,16 @@ system (Jekyll) are prefixed with underscore.
 ## Adding tool descriptions
 
 The tool descriptions follow a simple YAML format. Please see the
-files under the tool directory for examples, and check how they are
+files under the directory `tools` for examples, and check how they are
 displayed at http://www.nbis.se/infrastructure/tools/. Each YAML file
 corresponds to one tool.
 
-To add a file or make changes, first clone the [nbis-site]
-(https://github.com/NBISweden/nbis-site) repository as described in
-its README. You will then find this repository under the directory
-`_biotools`, as a submodule. To see the effect of any changes you
-make, follow the instructions in the nbis-site README file to build
-and serve the NBIS web pages locally.
+To add a file or make changes, first clone the
+[nbis-site](https://github.com/NBISweden/nbis-site) repository as
+described in its README. You will then find this repository under the
+directory `nbis_site/_biotools`, as a submodule. To see the effect of any
+changes you make, follow the instructions in the nbis-site README file
+to build and serve the NBIS web pages locally.
 
 The procedure for adding tool descriptions depends on whether the tool
 has been released.
@@ -55,16 +55,17 @@ included in bio.tools.
 After you have registered the tool on bio.tools, the script
 `_scripts/tool_validator.py` should be used to fetch information from
 bio.tools and create a YAML file. Some information that is lacking
-from bio.tools needs to be provided to the script in a
-JSON file. For a hypothethical tool *myTool*, the steps would be:
+from bio.tools must be provided to the script in a JSON file. For a
+hypothethical tool *myTool*, the steps would be:
 
 1. Install the PyYAML library, which `tool_validator.py` depends
    on. This can be done by running `pip install PyYAML`, preferably in
    a virtual environment. The script also uses `urllib2`, which is a
-   python2 module and the script will therefore not work with python3.
+   Python 2 module and the script will therefore not work with
+   Python 3.
 2. Create a file `_stubs/myTool.json`, using
    `_templates/toolstub.json` as a template.  Normally, the tool
-   version does not have to be specified in the JSON-file; the script
+   version does not have to be specified in the JSON file; the script
    will simply grab the latest version from bio.tools. Sometimes,
    however, this does not work, and the version needs to be provided.
 3. Execute: `python _scripts/tool_validator.py _stubs/myTool.json`
@@ -91,13 +92,16 @@ with this procedure.
 
 If you wish to make any other changes to this repository, please note
 that files that are be ignored by Jekyll should be placed in a
-directory prefixed with underscore. All YAML files outside such
-excluded directories will be treated as tool descriptions and
-displayed on the web site.
+directory prefixed with underscore. All YAML files that do not reside
+in such excluded directories will be treated as tool descriptions and
+displayed on the web site. All non-YAML files outside excluded
+directories are copied to the website directory tree, unless
+specifically excluded in the site config file `nbis_site/_config.yml`
+(this README is excluded in that manner).
 
 ## Questions
 
-Please send questions to
+Please send questions and comments to
 [P&auml;r Engstr&ouml;m](mailto:par.engstrom@scilifelab.se). Pull
 requests and general questions about the NBIS web site should be sent
 to [Mikael Borg](mailto:mikael.borg@nbis.se).
