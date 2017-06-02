@@ -30,8 +30,9 @@ corresponds to one tool.
 
 To add a file or make changes, first clone the
 [nbis-site](https://github.com/NBISweden/nbis-site) repository as
-described in its README. You will then find this repository under the
-directory `nbis_site/_biotools`, as a submodule. To see the effect of any
+described in its README. You will then find the tool description
+repository (i.e. this repository) under the directory
+`nbis_site/_biotools`, as a submodule. To see the effect of any
 changes you make, follow the instructions in the nbis-site README file
 to build and serve the NBIS web pages locally.
 
@@ -91,7 +92,7 @@ with this procedure.
 ## Further technical notes
 
 If you wish to make any other changes to this repository, please note
-that files that are be ignored by Jekyll should be placed in a
+that files that are to be ignored by Jekyll should be placed in a
 directory prefixed with underscore. All YAML files that do not reside
 in such excluded directories will be treated as tool descriptions and
 displayed on the web site. All non-YAML files outside excluded
