@@ -26,7 +26,8 @@ system (Jekyll) are prefixed with underscore.
 The tool descriptions follow a simple YAML format. Please see the
 files under the directory `tools` for examples, and check how they are
 displayed at http://www.nbis.se/infrastructure/tools/. Each YAML file
-corresponds to one tool.
+corresponds to one tool. For descriptions of the attributes, see
+`_templates/tool_template.yml`.
 
 To add a file or make changes, first clone the
 [nbis-site](https://github.com/NBISweden/nbis-site) repository as
@@ -43,7 +44,9 @@ has been released.
 
 This is very easy. Just add a YAML file with information about the
 tool, in the directory `tools` (i.e. `nbis_site/_biotools/tools`). You
-can use the file `templates/minimal.yml` as a starting point.
+can use the file `_templates/tool_template.yml` as a starting
+point. That file also contains further recommendations and
+explanations of the various attributes.
 
 ### Adding released tools
 
@@ -65,10 +68,7 @@ hypothethical tool *myTool*, the steps would be:
    Python 2 module and the script will therefore not work with
    Python 3.
 2. Create a file `_stubs/myTool.json`, using
-   `_templates/toolstub.json` as a template.  Normally, the tool
-   version does not have to be specified in the JSON file; the script
-   will simply grab the latest version from bio.tools. Sometimes,
-   however, this does not work, and the version needs to be provided.
+   `_templates/tool_stub.json` as a template. 
 3. Execute: `python _scripts/tool_validator.py _stubs/myTool.json`
 4. The above command should have created a file `myTool.yml`.
    Check that this newly created file looks OK.
@@ -77,6 +77,25 @@ hypothethical tool *myTool*, the steps would be:
 Steps 3-5 can be repeated to update a tool description if the
 bio.tools record has been updated. We might automate this in the
 future.
+
+Fields in the JSON file:
+
+- *pi*. Name of PI in case ownership can be attributed to a research group. Optional.
+- *affiliation*. The affiliation of the PI or other organization behind the tool. For in-house tools, use nbis.se.
+- *devstatus*. Development status. Options are:
+    - Active: Tools under active development, i.e. new features are being added
+    - Maintained: Tools that are mature and no longer actively developed, but maintained
+	  (e.g. bug fixes, updated for compatability with versions of dependencies).
+    - Inactive - Tools that we no longer work on. We probably shouldn't register tools in this category on bio.tools.
+- *released*. Should always be set to *true* for tools registered on bio.tools.
+- *releasedate*. When the tool was first released. May be used for sorting.
+- *primary_doi*. DOIs for publications describing the tool. Optional.
+- *uses_doi*. DOIs of publications where the tool is used. Optional. Not intended to be exahustive, but to provide a few examples.
+  Please avoid redundancy with *primary_doi*.
+- *biotools_version*. Version of the tool on bio.tools. Does normally not have to be specified; the script
+   will simply grab the latest version from bio.tools. Sometimes, however, this does not work, and the version needs to be provided.
+- *biotools_id*. ID of the tool on bio.tools.
+
 
 ### Publishing your changes on the NBIS web site
 
