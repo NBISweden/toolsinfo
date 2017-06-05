@@ -1,25 +1,66 @@
 ---
-###
-# This is a minimal YAML file for tools that are
-# submitted manually. In case the tool is not found
-# on bio.tools and not released.
-###
+#########################################################################
+# This is a template YAML file for tool descriptions.  A tool
+# description can be composed using this file as a starting point.
+#
+# Note that, for tools that have been released, it is preferred to
+# first register the tool on bio.tools, and then use tool_validator.py
+# to generate a YAML file based on the bio.tools record.
+#########################################################################
 
+########################
+# Mandatory attributes #
+########################
 
-name: Faketool
-description: Fake fake fake description
-homepage: https://ki.se
-operatingSystem: [Linux]
+name: myTool
+description: Brief description of what the tool does.
 
-# tool type can be anything you like but please stick to the bio.tools toolTypes from https://github.com/bio-tools/biotoolsSchema
-toolType: [Database portal, Desktop application, Library, Ontology, Plug-in, Script, SPARQL endpoint, Suite, Web application, Web API, Web service, Workbench, Workflow]
-affiliation: ki.se
-pi: Test Testsson
+# For toolType, try to stick to the options from https://github.com/bio-tools/biotoolsSchema
+# The options available as of May 2017 are listed below; delete as appropriate.
+toolType: [Command-line tool, Database portal, Desktop application, Library, Ontology, Plug-in, Script, SPARQL endpoint, Suite, Web application, Web API, Web service, Workbench, Workflow]
 
-# either or both:
+# The affiliation of the PI or other organization behind the tool. For in-house tools, use nbis.se.
+affiliation: nbis.se
+
+# Contact. Either or both:
 contact_email: test.testsson@ki.se
 contact_url: 
 
-# do not change the following
+# Release status (true or false)
 released: false
+
+# Development status. Options are:
+# Active - Tools under active development, i.e. new features are being added
+# Maintained - Tools that are mature and no longer actively developed, but maintained
+#              (e.g. bug fixes, updated for compatability with newer versions of dependencies)
+# Inactive - Tools that we no longer work on.
 devstatus: Active
+
+#######################
+# Optional attributes #
+#######################
+
+# operatingSystem should always be specified, except for Web applications
+# that can be assumed to function under any OS
+# For consistency, we should use the options from https://github.com/bio-tools/biotoolsSchema
+# The options available as of May 2017 are listed below; delete as appropriate.
+operatingSystem: [Linux, Windows, Mac]
+
+# Link to the web page for the tool, e.g. a GitHub repository or web interface.
+homepage: https://github.com/NBISweden/myTool
+
+# In case ownership can be attributed to a research group
+pi: Francis Crick
+
+# Publications describing the tool.
+# primary_doi should be an array of DOIs.
+# primary_pub should be a corresponding array of text strings to display.
+# The strings could be any text, but please follow the citation format in the example below for consistency.
+primary_doi: [10.1016/S0022-2836(05)80360-2, 10.1038/ng0393-266]
+primary_pub: ['Altschul et al., 1990', 'Gish and States, 1993']
+
+# Examples of publications where the tool is used.
+# Please avoid redundancy with primary_doi/pub.
+uses_doi: []
+uses_pub: []
+
