@@ -6,7 +6,6 @@
 "releasedate": "2016-08-01",
 "primary_doi": ["10.1038/ncomms13642"],
 "uses_doi": [],
-"biotools_id": "IgDiscover",
-"biotools_version": "0.6.0"
+"biotools_id": "IgDiscover"
 }
 

@@ -6,7 +6,6 @@
     "releasedate": "2016-10-27",
     "primary_doi": ["10.1089/cmb.2014.0157", "10.1101/037101"],
     "uses_doi": [],
-    "biotools_id": "WhatsHap",
-    "biotools_version": "0.13"
+    "biotools_id": "WhatsHap"
 }
 
