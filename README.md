@@ -80,21 +80,21 @@ future.
 
 Fields in the JSON file:
 
-- *pi*. Name of PI in case ownership can be attributed to a research group. Optional.
-- *affiliation*. The affiliation of the PI or other organization behind the tool. For in-house tools, use nbis.se.
-- *devstatus*. Development status. Options are:
-    - Active: Tools under active development, i.e. new features are being added
-    - Maintained: Tools that are mature and no longer actively developed, but maintained
-	  (e.g. bug fixes, updated for compatability with versions of dependencies).
-    - Inactive - Tools that we no longer work on. We probably shouldn't register tools in this category on bio.tools.
-- *released*. Should always be set to *true* for tools registered on bio.tools.
-- *releasedate*. When the tool was first released. May be used for sorting.
-- *primary_doi*. DOIs for publications describing the tool. Optional.
-- *uses_doi*. DOIs of publications where the tool is used. Optional. Not intended to be exahustive, but to provide a few examples.
-  Please avoid redundancy with *primary_doi*.
-- *biotools_version*. Version of the tool on bio.tools. Does normally not have to be specified; the script
+- `pi` Name of PI in case ownership can be attributed to a research group. Optional.
+- `affiliation` The affiliation of the PI or other organization behind the tool. For in-house tools, use `nbis.se`.
+- `devstatus` Development status. Options are:
+    - `Active` Tools under active development, i.e. new features are being added.
+    - `Maintained` Tools that are mature and no longer actively developed, but maintained
+	  (e.g. bug fixes, updated for compatability with newer versions of dependencies).
+    - `Inactive` Tools that we no longer work on. We probably shouldn't register such tools on bio.tools.
+- `released` Should always be set to `true` for tools registered on bio.tools.
+- `releasedate` When the tool was first released. Intended for sorting.
+- `primary_doi` DOIs of publications describing the tool. Optional.
+- `uses_doi` DOIs of publications where the tool was used. Not intended to be exahustive, but to provide a few examples.
+  Please avoid redundancy with `primary_doi`. Optional.
+- `biotools_version` Version of the tool on bio.tools. Does normally not have to be specified; the script
    will simply grab the latest version from bio.tools. Sometimes, however, this does not work, and the version needs to be provided.
-- *biotools_id*. ID of the tool on bio.tools.
+- `biotools_id` ID of the tool on bio.tools.
 
 
 ### Publishing your changes on the NBIS web site
