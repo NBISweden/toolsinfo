@@ -1,0 +1,15 @@
+---
+# Mandatory fields
+name: LocalEGA
+description: The European Genome-phenome Archive (EGA) is a service for permanent archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical research projects. Local EGA handles data that are supposed to stay in Sweden. 
+toolType: [Command-line tool, Workflow]
+affiliation: nbis.se
+contact_email: ega@nbis.se
+contact_url: null
+released: false
+devstatus: Active
+# Optional fields
+operatingSystem: [Linux, Mac]
+homepage: https://github.com/NBISweden/LocalEGA
+#version: '1.0'
+
