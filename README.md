@@ -121,10 +121,7 @@ specifically excluded in the site config file `nbis_site/_config.yml`
 
 ## Questions
 
-Please send questions and comments to
-[P&auml;r Engstr&ouml;m](mailto:par.engstrom@scilifelab.se). Pull
-requests and general questions about the NBIS web site should be sent
-to [Mikael Borg](mailto:mikael.borg@nbis.se).
+If you have questions, please open an [issue](https://github.com/NBISweden/toolsinfo/issues).
 
 The tool description system was designed and implemented by Jorrit
 Boekel, Mikael Borg, Jonas Hagberg and P&auml;r Engstr&ouml;m.
