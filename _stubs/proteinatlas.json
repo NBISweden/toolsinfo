@@ -1,0 +1,11 @@
+{
+"pi": "Mathias Uhlén",
+"affiliation": "kth.se",
+"devstatus": "Active",
+"released": true,
+"releasedate": "2005-08-29",
+"primary_doi": ["10.1038/nbt1210-1248", "10.1126/science.1260419"],
+"uses_doi": ["10.1096/fj.14-250555", "10.1186/s12864-015-1686-y", "10.15252/msb.20167144"],
+"biotools_id": "proteinatlas"
+}
+

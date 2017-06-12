@@ -2,7 +2,6 @@
 releasedate: 2016-08-01
 affiliation: ki.se
 biotools_id: IgDiscover
-biotools_version: 0.6.0
 contact_email: igdiscover@googlegroups.com
 contact_url: http://igdiscover.se/
 description: IgDiscover analyzes antibody repertoires and discovers new V genes from
