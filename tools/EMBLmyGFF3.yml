@@ -1,0 +1,9 @@
+---
+name: EMBLmyGFF3
+description: Software to convert GFF3 and fasta to legal EMBL format suitable for the submission to the European Nucleotide Archive (ENA) database.
+homepage: https://github.com/NBISweden/EMBLmyGFF3
+operatingSystem: Linux, Mac
+toolType: [Command-line tool]
+affiliation: nbis.se 
+released: true
+devstatus: Maintained
