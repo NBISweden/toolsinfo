@@ -6,5 +6,7 @@ operatingSystem: Linux
 toolType: Workflow
 affiliation: nbis.se
 contact_email: bjorn.nystedt@scilifelab.se
-released: false
-devstatus: Active
+primary_doi: [10.1038/ejhg.2017.130]
+primary_pub: ['Ameur et al., 2017']
+released: true
+devstatus: Maintained
