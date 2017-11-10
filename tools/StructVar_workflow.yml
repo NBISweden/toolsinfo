@@ -2,14 +2,14 @@
 releasedate: 2017-08-21
 affiliation: nbis.se
 biotools_id: Structural_variation_workflow_for_WGS_data
-contact_email: null
+contact_email: bjorn.nystedt@scilifelab.se
 contact_url: https://nbis.se
 description: A workflow for standardized calling and filtering of structural variants,
   designed for whole genome sequencing projects.
 devstatus: Maintained
 homepage: https://github.com/NBISweden/wgs-structvar
 name: wgs-structvar
-operatingSystem: [Linux, Mac]
+operatingSystem: [Linux]
 pi: ''
 primary_doi: [10.1038/ejhg.2017.130]
 primary_pub: ['Ameur et al., 2017']
