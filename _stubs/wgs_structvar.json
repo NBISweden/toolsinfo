@@ -1,0 +1,11 @@
+{
+    "pi": "",
+    "affiliation": "nbis.se",
+    "devstatus": "Maintained",
+    "released": true,
+    "releasedate": "2017-08-21",
+    "primary_doi": ["10.1038/ejhg.2017.130"],
+    "uses_doi": [],
+    "biotools_id": "Structural_variation_workflow_for_WGS_data"
+}
+
