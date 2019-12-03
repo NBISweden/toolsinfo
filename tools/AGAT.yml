@@ -1,0 +1,10 @@
+---
+name: AGAT
+description: Another Gff Analysis Toolkit. Suite of tools to handle gene annotations in any GTF/GFF format.
+homepage: https://github.com/NBISweden/AGAT
+operatingSystem: Linux, Mac, Windows
+primary_doi: [10.5281/zenodo.3552717]
+toolType: [Command-line tool]
+affiliation: nbis.se
+released: true
+devstatus: Maintained
