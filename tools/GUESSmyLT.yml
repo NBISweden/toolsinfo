@@ -2,8 +2,9 @@
 name: GUESSmyLT
 description: Software to guess the RNA-Seq library type of paired and single end read files using mapping and gene annotation.
 homepage: https://github.com/NBISweden/GUESSmyLT
-operatingSystem: Linux, Mac
+operatingSystem: Linux, Mac, Windows
+primary_doi: [10.21105/joss.01344]
 toolType: [Command-line tool]
-affiliation: nbis.se 
+affiliation: nbis.se
 released: true
-devstatus: Active
+devstatus: Maintained
