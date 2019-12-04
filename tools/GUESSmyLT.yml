@@ -4,6 +4,7 @@ description: Software to guess the RNA-Seq library type of paired and single end
 homepage: https://github.com/NBISweden/GUESSmyLT
 operatingSystem: Linux, Mac, Windows
 primary_doi: [10.21105/joss.01344]
+primary_pub: ['Berner Wik, Olin, Vigetun Haughey, Klasson & Dainat, 2019']
 toolType: [Command-line tool]
 affiliation: nbis.se
 released: true
