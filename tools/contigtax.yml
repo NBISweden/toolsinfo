@@ -1,0 +1,13 @@
+---
+name: contigtax
+description: contigtax assigns taxonomy to contigs in metagenomic assemblies
+using sequence alignments against protein databases (e.g. UniRef) and
+calculation of lowest common ancestor in the taxonomic hierarchy.
+toolType: [Command-line tool]
+affiliation: nbis.se
+contact_email: john.sundh@nbis.se
+contact_url:
+released: false
+devstatus: Active
+operatingSystem: [Linux, Mac]
+homepage: https://github.com/NBISweden/contigtax
