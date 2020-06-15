@@ -1,21 +1,22 @@
 ---
 releasedate: 2017-02-16
 affiliation: scilifelab.se
-biotools_id: CAW
+biotools_id: sarek
 contact_email: maxime.garcia@scilifelab.se
 contact_url: null
-description: Complete open source pipeline to detect germline or somatic variants
-  from normal or tumour/normal whole-genome sequencing data.
+description: Sarek is a workflow designed to detect variants on whole genome or targeted sequencing data.
+  Initially designed for Human, and Mouse, it can work on any species with a reference genome.
+  Sarek can also handle tumour / normal pairs and could include additional relapses.
   Previously known as Cancer Analysis Workflow (CAW).
 devstatus: Active
-homepage: http://opensource.scilifelab.se/projects/sarek/
+homepage: https://nf-co.re/sarek
 name: Sarek
 operatingSystem: [Linux]
 pi: null
-primary_doi: []
-primary_pub: []
+primary_doi: [10.12688/f1000research.16665.1]
+primary_pub: [Garcia M al. 2020]
 released: true
 toolType: [Command-line tool, Workflow]
 uses_doi: []
 uses_pub: []
-version: 2.0.0
+version: '2.6'
