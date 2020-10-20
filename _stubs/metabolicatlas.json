@@ -1,0 +1,12 @@
+{
+"pi": "Jens Nielsen",
+"affiliation": "chalmers.se",
+"devstatus": "Active",
+"released": true,
+"releasedate": "2019-05-17",
+"primary_doi": ["10.1126/scisignal.aaz1482"],
+"uses_doi": [""],
+"biotools_version": "",
+"biotools_id": "metabolicatlas"
+}
+
