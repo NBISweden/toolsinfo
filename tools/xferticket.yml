@@ -1,0 +1,10 @@
+---
+name: Xferticket
+description: Service for facilitating transfer of big datasets to and from nbis experts.
+homepage: https://xferticket.nbis.se
+operatingSystem: 
+toolType: [Web application]
+affiliation: nbis.se
+contact_email: cto@nbis.se
+released: true
+devstatus: Maintained
