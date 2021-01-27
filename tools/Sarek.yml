@@ -1,7 +1,7 @@
 ---
 releasedate: 2017-02-16
 affiliation: scilifelab.se
-biotools_id: sarek
+biotools_id: nf-core-sarek
 contact_email: maxime.garcia@scilifelab.se
 contact_url: null
 description: Sarek is a workflow designed to detect variants on whole genome or targeted sequencing data.
@@ -13,10 +13,10 @@ homepage: https://nf-co.re/sarek
 name: Sarek
 operatingSystem: [Linux]
 pi: null
-primary_doi: [10.12688/f1000research.16665.1]
+primary_doi: [10.12688/f1000research.16665.2]
 primary_pub: [Garcia M al. 2020]
 released: true
 toolType: [Command-line tool, Workflow]
 uses_doi: []
 uses_pub: []
-version: '2.6'
+version: '2.7'
