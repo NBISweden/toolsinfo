@@ -1,0 +1,20 @@
+---
+releasedate: 2015-01-01
+affiliation: dbb.su.se
+biotools_id: Topcons
+biotools_version: '1'
+contact_email: arne@bioinfo.se
+contact_url: http://bioinfo.se/
+description: Consensus prediction of membrane protein topology and signal peptides
+devstatus: Maintained
+homepage: https://topcons.net/
+name: Topcons
+operatingSystem: []
+pi: Arne Elofsson
+primary_doi: [10.1093/nar/gkv485]
+primary_pub: ['Tsirigos et al., 2015']
+released: true
+toolType: [Web application]
+uses_doi: []
+uses_pub: []
+version: null
