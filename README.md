@@ -2,8 +2,7 @@
 
 This repository contains descriptions of tools that are under
 development or maintenance by NBIS staff. The tool descriptions are
-presented on the NBIS website:
-<http://www.nbis.se/infrastructure/tools/>.
+presented on the [NBIS website](http://www.nbis.se/infrastructure/tools/).
 
 All mature, released tools that are maintained by NBIS should have a
 description in this repository. We also include descriptions for tools
@@ -25,9 +24,9 @@ system (Jekyll) are prefixed with underscore.
 
 The tool descriptions follow a simple YAML format. Please see the
 files under the directory `tools` for examples, and check how they are
-displayed at <http://www.nbis.se/infrastructure/tools/>. Each YAML file
-corresponds to one tool. For descriptions of the attributes, see
-`_templates/tool_template.yml`.
+displayed at [the site](http://www.nbis.se/infrastructure/tools/).
+Each YAML file corresponds to one tool. For descriptions of the
+attributes, see `_templates/tool_template.yml`.
 
 To add a file or make changes, first clone the
 [nbis-site](https://github.com/NBISweden/nbis-site) repository as
@@ -81,7 +80,8 @@ future.
 Fields in the JSON file:
 
 - `pi` Name of PI in case ownership can be attributed to a research group. Optional.
-- `affiliation` The affiliation of the PI or other organization behind the tool. For in-house tools, use `nbis.se`.
+- `affiliation` The affiliation of the PI or other organization behind
+  the tool. For in-house tools, use `nbis.se`.
 - `devstatus` Development status. Options are:
   - `Active` Tools under active development, i.e. new features are being added.
   - `Maintained` Tools that are mature and no longer actively developed, but maintained
@@ -90,16 +90,19 @@ Fields in the JSON file:
 - `released` Should always be set to `true` for tools registered on bio.tools.
 - `releasedate` When the tool was first released. Intended for sorting.
 - `primary_doi` DOIs of publications describing the tool. Optional.
-- `uses_doi` DOIs of publications where the tool was used. Not intended to be exahustive, but to provide a few examples.
-  Please avoid redundancy with `primary_doi`. Optional.
-- `biotools_version` Version of the tool on bio.tools. Does normally not have to be specified; the script
-   will simply grab the latest version from bio.tools. Sometimes, however, this does not work, and the version needs to be provided.
+- `uses_doi` DOIs of publications where the tool was used. Not
+  intended to be exahustive, but to provide a few examples. Please
+  avoid redundancy with `primary_doi`. Optional.
+- `biotools_version` Version of the tool on bio.tools. Does normally
+   not have to be specified; the script will simply grab the latest
+   version from bio.tools. Sometimes, however, this does not work, and
+   the version needs to be provided.
 - `biotools_id` ID of the tool on bio.tools.
 
 ### Publishing your changes on the NBIS web site
 
-Run Jekyll locally (see above) and check the result of your changes at
-<http://localhost:4000/infrastructure/tools/>.
+Run Jekyll locally (see above) and check the result of your changes
+[in the local server](http://localhost:4000/infrastructure/tools/).
 
 To get your changes into the actual NBIS web site, you need to create
 a working branch of toolsinfo, commit your changes to that branch,
