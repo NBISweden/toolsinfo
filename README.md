@@ -3,7 +3,7 @@
 This repository contains descriptions of tools that are under
 development or maintenance by NBIS staff. The tool descriptions are
 presented on the NBIS website:
-http://www.nbis.se/infrastructure/tools/.
+<http://www.nbis.se/infrastructure/tools/>.
 
 All mature, released tools that are maintained by NBIS should have a
 description in this repository. We also include descriptions for tools
@@ -25,7 +25,7 @@ system (Jekyll) are prefixed with underscore.
 
 The tool descriptions follow a simple YAML format. Please see the
 files under the directory `tools` for examples, and check how they are
-displayed at http://www.nbis.se/infrastructure/tools/. Each YAML file
+displayed at <http://www.nbis.se/infrastructure/tools/>. Each YAML file
 corresponds to one tool. For descriptions of the attributes, see
 `_templates/tool_template.yml`.
 
@@ -68,7 +68,7 @@ hypothethical tool *myTool*, the steps would be:
    Python 2 module and the script will therefore not work with
    Python 3.
 2. Create a file `_stubs/myTool.json`, using
-   `_templates/tool_stub.json` as a template. 
+   `_templates/tool_stub.json` as a template.
 3. Execute: `python _scripts/tool_validator.py _stubs/myTool.json`
 4. The above command should have created a file `myTool.yml`.
    Check that this newly created file looks OK.
@@ -83,10 +83,10 @@ Fields in the JSON file:
 - `pi` Name of PI in case ownership can be attributed to a research group. Optional.
 - `affiliation` The affiliation of the PI or other organization behind the tool. For in-house tools, use `nbis.se`.
 - `devstatus` Development status. Options are:
-    - `Active` Tools under active development, i.e. new features are being added.
-    - `Maintained` Tools that are mature and no longer actively developed, but maintained
-	  (e.g. bug fixes, updated for compatability with newer versions of dependencies).
-    - `Inactive` Tools that we no longer work on. We probably shouldn't register such tools on bio.tools.
+  - `Active` Tools under active development, i.e. new features are being added.
+  - `Maintained` Tools that are mature and no longer actively developed, but maintained
+    (e.g. bug fixes, updated for compatability with newer versions of dependencies).
+  - `Inactive` Tools that we no longer work on. We probably shouldn't register such tools on bio.tools.
 - `released` Should always be set to `true` for tools registered on bio.tools.
 - `releasedate` When the tool was first released. Intended for sorting.
 - `primary_doi` DOIs of publications describing the tool. Optional.
@@ -96,11 +96,10 @@ Fields in the JSON file:
    will simply grab the latest version from bio.tools. Sometimes, however, this does not work, and the version needs to be provided.
 - `biotools_id` ID of the tool on bio.tools.
 
-
 ### Publishing your changes on the NBIS web site
 
 Run Jekyll locally (see above) and check the result of your changes at
-http://localhost:4000/infrastructure/tools/.
+<http://localhost:4000/infrastructure/tools/>.
 
 To get your changes into the actual NBIS web site, you need to create
 a working branch of toolsinfo, commit your changes to that branch,
