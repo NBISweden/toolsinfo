@@ -5,7 +5,7 @@ toolType: [Database portal, Web application, Web API, Web service]
 affiliation: chalmers.se
 pi: Jens Nielsen
 contact_email: contact@metabolicatlas.org
-primary_doi: [10.1126/scisignal.aaz1482]
-primary_pub: ['Robinson et al., 2020']
+primary_doi: [10.1073/pnas.2102344118, 10.1126/scisignal.aaz1482]
+primary_pub: ['Wang et al., 2021', 'Robinson et al., 2020']
 released: true
 devstatus: Active
